@@ -1,0 +1,31 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>I`m a Resourceful Software Developer with a profound knowledge and experience of Development using Python, Flask, frond-end technologies such as HTML, CSS, etc., and data exploration libraries like Pandas etc., and Linux system administrator with knowledge and experience of Docker, Kubernetes and cloud computing (AWS)</p>
+        <p>I'm a quick-learner, always spirited to learn and adapt new technologies, possess strong problem solving skills and keen to discover innovative solutions.</p>
+        <p> I have developed creative and responsive websites using Flask and Bootstrap such as Personal Blog, My top 10 movies, while following efficient designing practices. I also created a Spotify playlist using BeautifulSoup4 and API methods (by accessing API endpoint).</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
